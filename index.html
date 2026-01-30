@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Happy Birthday Sandhya! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Page 1: Welcome Page -->
+    <div class="page active" id="page1">
+        <div class="stars"></div>
+        <div class="container">
+            <div class="birthday-thumbnails">
+                <div class="thumbnail">🎂</div>
+                <div class="thumbnail">🎈</div>
+                <div class="thumbnail">🎁</div>
+                <div class="thumbnail">🎊</div>
+                <div class="thumbnail">💝</div>
+                <div class="thumbnail">🌹</div>
+            </div>
+            <h1 class="main-title">Happy Birthday</h1>
+            <h2 class="name-title">Sandhya</h2>
+            <p class="subtitle">A Special Day for a Special Person</p>
+            <button class="next-btn" onclick="goToPage(2)">Continue Journey →</button>
+        </div>
+    </div>
+
+    <!-- Page 2: Message Page -->
+    <div class="page" id="page2">
+        <div class="floating-hearts">
+            <span>💖</span>
+            <span>💕</span>
+            <span>💗</span>
+            <span>💓</span>
+            <span>💞</span>
+        </div>
+        <div class="container">
+            <h2 class="page-title">A Special Message</h2>
+            <div class="message-box-container">
+                <textarea class="message-box" id="messageBox" placeholder="On your birthday...I just want you to know how deeply special you are...not only today but every single day!! The way you smile , the way you care and the quiet strength you carry makes the world around you warmer and brighter!! You have this rare magic of making people feel seen, understood, and valued just by being yourself!! I hope this year brings you peace in your heart, happiness in small moments, and dreams that slowly turn into reality.... You deserve love that feels safe, joy that feels endless and a life that makes you proud to be you!!  Happy Birthday SANDHYAA....💙✨"></textarea>
+            </div>
+            <div class="button-group">
+                <button class="nav-btn" onclick="goToPage(1)">← Previous</button>
+                <button class="nav-btn" onclick="goToPage(3)">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3: Photo Gallery -->
+    <div class="page" id="page3">
+        <div class="sidebar">
+            <h3>Memories</h3>
+            <div class="decorative-elements">
+                <div class="deco-circle"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-circle"></div>
+            </div>
+            <p class="sidebar-text">Every moment with you is a treasure</p>
+        </div>
+        <div class="photo-gallery">
+            <h2 class="gallery-title">Beautiful Moments</h2>
+            <div class="photos-grid">
+                <div class="photo-item">
+                    <img src="photos/photo1.jpeg" alt="Memory 1">
+                    <div class="hover-message">You light up my world! ✨</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.39 AM (1).jpeg" alt="Memory 2">
+                    <div class="hover-message">Your smile is everything! 😊</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.39 AM.jpeg" alt="Memory 3">
+                    <div class="hover-message">Every day with you is special! 💕</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.40 AM (1).jpeg" alt="Memory 4">
+                    <div class="hover-message">You are my sunshine! ☀️</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.40 AM (2).jpeg" alt="Memory 5">
+                    <div class="hover-message">My heart belongs to you! 💖</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.40 AM.jpeg" alt="Memory 6">
+                    <div class="hover-message">You make life beautiful! 🌸</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.47 AM (1).jpeg" alt="Memory 7">
+                    <div class="hover-message">Forever grateful for you! 🙏</div>
+                </div>
+                <div class="photo-item">
+                    <img src="photos/WhatsApp Image 2026-01-31 at 1.18.47 AM.jpeg" alt="Memory 8">
+                    <div class="hover-message">Happy Birthday, my love! 🎂</div>
+                </div>
+            </div>
+            <div class="button-group">
+                <button class="nav-btn" onclick="goToPage(2)">← Previous</button>
+                <button class="nav-btn" onclick="goToPage(4)">Next →</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 4: Cake Page -->
+    <div class="page" id="page4">
+        <div class="confetti"></div>
+        <div class="container">
+            <h2 class="cake-title">Make a Wish!</h2>
+            <div class="cake-container">
+                <div class="cake">
+                    <div class="candle" id="candle1">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle" id="candle2">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle" id="candle3">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle" id="candle4">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle" id="candle5">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                </div>
+            </div>
+            <p class="final-message">Happy Birthday Sandhya! 🎉🎂🎈</p>
+            <button class="nav-btn" onclick="goToPage(3)">← Previous</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
