@@ -695,6 +695,13 @@ body {
     .message-box { padding: 25px; font-size: 16px; min-height: 250px; }
     .nav-btn { padding: 12px 28px; font-size: 16px; }
     .final-message { font-size: 24px; }
+
+    /* Allow page scrolling on smaller devices */
+    body {
+        overflow: auto;
+        height: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 }
 
 @media (max-width: 480px) {
@@ -745,4 +752,11 @@ body {
     .nav-btn { width: 100%; max-width: 300px; }
     .final-message { font-size: 20px; margin-top: 30px; }
     .container { padding: 20px; }
+
+    /* Ensure the whole page is scrollable on very small screens */
+    body {
+        overflow: auto;
+        height: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 }
